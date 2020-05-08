@@ -1,3 +1,5 @@
+# https://support.autoelevate.com/hc/en-us/articles/115003703811-System-Agent-Installation
+
 if (!(test-path $env:ToolsDir)) {
     New-Item -ItemType Directory -Path $env:ToolsDir
 }
